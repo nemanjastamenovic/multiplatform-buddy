@@ -21,8 +21,8 @@ class MainViewModelTest {
 
     @Test
     fun `Button click changes the welcome text`() {
-        mainViewModel.welcomeText.value.should.equal(MainViewModel.INIT_WELCOME_MSG)
+        mainViewModel.currentIp.value.should.equal(MainViewModel.INIT_WELCOME_MSG)
         mainViewModel.onClickMeClicked()
-        mainViewModel.welcomeText.value.should.equal(myRepo.getClickedWelcomeText())
+        mainViewModel.currentIp.value.should.equal(myRepo.getClickedWelcomeText())
     }
 }

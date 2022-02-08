@@ -6,6 +6,7 @@ plugins {
     val kotlinVersion = "1.5.31"
     kotlin("jvm") version kotlinVersion
     kotlin("kapt") version kotlinVersion
+    kotlin("plugin.serialization") version kotlinVersion
     id("org.jetbrains.compose") version "1.0.0-beta1"
 }
 

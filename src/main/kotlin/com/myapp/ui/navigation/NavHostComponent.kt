@@ -12,9 +12,6 @@ import com.myapp.di.DaggerAppComponent
 import com.myapp.ui.feature.main.MainScreenComponent
 import com.myapp.ui.feature.splash.SplashScreenComponent
 
-/**
- * All navigation decisions are made from here
- */
 class NavHostComponent(
     private val componentContext: ComponentContext,
 ) : Component, ComponentContext by componentContext {

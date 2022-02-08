@@ -10,8 +10,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 class SplashViewModel @Inject constructor(
-    private val myRepo: MyRepo,
-    // Inject your repos here...
+    private val myRepo: MyRepo
 ) : ViewModel() {
 
     companion object {
