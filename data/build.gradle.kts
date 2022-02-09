@@ -17,6 +17,8 @@ dependencies {
     implementation("io.ktor:ktor-server-netty:1.6.7")
     implementation("ch.qos.logback:logback-classic:1.2.10")
     implementation("io.ktor:ktor-serialization:1.6.7")
+    implementation("io.ktor:ktor-html-builder:1.6.7")
+
 
     // Dagger
     val daggerVersion: String by rootProject.extra
